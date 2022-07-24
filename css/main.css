@@ -1,0 +1,110 @@
+.card {
+    margin: 100px 0;
+}
+
+.card .card-header {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.card label {
+    font-weight: bold;
+}
+
+body .w-50:first-of-type .card-header {
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+}
+
+.group-functions {
+    margin: 50px 0;
+}
+
+.group-functions label {
+    font-size: 24px;
+    display: block;
+}
+
+.group-functions button {
+    margin: 8px 5px;
+    font-weight: bold;
+}
+
+/* Basic-functions button style */
+.basic-functions button:first-of-type {
+    background-image: linear-gradient(109.6deg, rgba(255, 179, 189, 1) 1.8%, rgba(254, 248, 154, 1) 50.6%, rgba(161, 224, 186, 1) 100.3%);
+}
+
+.basic-functions button:nth-of-type(2) {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.basic-functions button:nth-of-type(3) {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.basic-functions button:nth-of-type(4) {
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+
+.basic-functions button:nth-of-type(5) {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+/* End basic-functions button style */
+.advn-functions button:first-of-type {
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+}
+
+.advn-functions button:nth-of-type(2) {
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+}
+
+.advn-functions button:nth-of-type(3) {
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+
+.advn-functions button:nth-of-type(4) {
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+}
+
+.advn-functions button:nth-of-type(5) {
+    background-image: linear-gradient(109.6deg, rgba(61, 245, 167, 1) 11.2%, rgba(9, 111, 224, 1) 91.1%);
+}
+
+
+/* Sub section style */
+.sub-section label {
+    display: block;
+}
+
+.sub-section input {
+    display: inline-block;
+    width: 40%;
+}
+
+.sub-section #nhapSoThuc {
+    width: 30%;
+    vertical-align: middle;
+}
+
+.sub-section #btnSoThuc {
+    margin-left: 15px;
+}
+
+.change-position,
+.change-position-2 {
+    display: none;
+}
+
+.position-after {
+    display: block;
+}
+/* End sub section style */
